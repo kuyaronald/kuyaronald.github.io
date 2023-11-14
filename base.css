@@ -1,0 +1,58 @@
+body{
+    font-family:Arial, Helvetica, sans-serif
+}
+article{
+    background-color: whitesmoke;
+}
+header {
+    text-align: center;
+}
+.tubo {
+    display:block;
+    width: 50%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul li a {
+    border-style: solid;
+    background-color: #2B398F;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    display:inline-block;
+    text-decoration: none;
+}
+
+nav ul li:nth-child(3) a {
+    background-color: orange;
+    color: black
+}
+
+nav ul li a:hover {
+    background: gainsboro;
+    transition: 0.5s ease;
+}
+
+
+
+main h1 {
+    border-style: double;
+    margin: 20px;
+    padding: 20px;
+    background-color: #2B398F;
+    color: whitesmoke;
+    text-align: center;
+    width: 90%;
+    height: auto;
+}
