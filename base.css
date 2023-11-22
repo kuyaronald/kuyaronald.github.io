@@ -453,6 +453,7 @@ Component
 -------------------------------- */
 
 .feature-v2 {
+  padding: 1rem;
 }
 
 .feature-v2__label {
@@ -571,6 +572,9 @@ margin-bottom: 8rem;
 text-align: center;
 }
 
+.workheader {
+  padding: 2rem;
+}
 
 /* -------------------------------- 
 
@@ -719,26 +723,31 @@ background-color: hsl(240, 4%, 90%);
 padding: 0.5rem 1rem;
 
 font-size: 0.9375rem;
+font-family: "Oswald" , sans-serif;
+}
+
+.badges a {
+  text-decoration: none;
 }
 
 .badge-milkrun {
-background-color: transparent;
-box-shadow: inset 0 0 0 1px hsl(240, 4%, 90%);
+background-color: white;
+color: black;
 }
 
 .badge-birdesc {
-background-color: hsl(230, 13%, 9%);
-color: hsl(0, 0%, 100%);
+background-color: black;
+color: white;
 }
 
 .badge-boathouse {
-background-color: hsl(250, 84%, 54%);
-color: hsl(0, 0%, 100%);
+background-color: green;
+color: white;
 }
 
 .badge-timhortons {
-background-color: hsla(250, 84%, 54%, 0.2);
-color: hsl(230, 13%, 9%);
+background-color: red;
+color: white;
 }
 
 /* -------------------------------- 
@@ -1099,26 +1108,26 @@ img, video, svg {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: hsl(var(--sk4-color-contrast-high-hsl));
+  background-color: navy;
   transition: 0.3s;
 }
 .socials__btns a svg {
   height: 1.25em;
   width: 1.25em;
   /* icon size */
-  color: hsl(var(--sk4-color-bg-hsl));
+  color: white;
   /* icon color */
   transition: color 0.3s, -webkit-transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
   transition: color 0.3s, transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
   transition: color 0.3s, transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), -webkit-transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 .socials__btns a:hover {
-  background-color: hsl(var(--sk4-color-primary-hsl));
+  background-color: antiquewhite;
 }
 .socials__btns a:hover svg {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  color: hsl(var(--sk4-color-white-hsl));
+  color: navy;
 }
 
 /* utility classes */
