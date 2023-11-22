@@ -4,85 +4,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Portfolio Mock</title>
+    <link rel ="stylesheet" href="base.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
 </head>
 
 <body>
     <Header>
+
+        <section class="cta-banner cta-banner--text-center@md cd-padding-sm">
+            <div class="cta-banner__grid">
+              <div class="cta-banner__content">
+                <h1 class="cta-banner__title"> RONALD ATUTUBO</h1>
+          
+                <p class="cta-banner__description">GRAPHIC DESIGN | USER INTERFACE | USER EXPERIENCE</p>
+          
+                <div class="cta-banner__btns">
+                  <a href="#contact" class="cd-btn cd-btn--primary">CONTACT ME</a>
+                </div>
+              </div>
+            
+              <figure>
+                <img class="cta-banner__img cd-radius-md" src="Images/hs.jpeg" alt="Headshot of Ronald Atutubo" style="width:min-content">
+              </figure>
+            </div>
+          </section>
+
+          
         <figure>
-            <img src="./Images/Tubo Logo.png" height="200" alt="The tubo logo in blue">
+            <img src="./Images/tubologo.png" height="200" alt="The tubo logo in blue" class="tubo">
         </figure>
-        <br>
+
         <nav>
             <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">My Work</a></li>
-                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#projects">MY WORK</a></li>
+                <li><a href="#contact">CONTACT ME</a></li>
             </ul>
         </nav>
     </Header>
-    <main>
-        <h1>Hi, Welcome to my page! &#128075;</h1>
+
+
         <!-- Would like to add more flair for sure-->
 
         <article>
-            <section id="About">
-                <h2>About Me &#128218;</h2>
-                <p> Hi, my name is Ronald Atutubo. I was born and raised in Calgary, Alberta. I am a first-year student at SAIT in the IDD program. My hobbies include video games, music, fashion and dancing. I previously worked as a choreographer and dance teacher! I’m hoping that after this program, I can break into tech or the fashion industry and possibly work as a UI/UX designer or attain enough skills to become a full stack developer.</p>
-               <br>
-               
-                <table border="3">
-                    <caption>
-                        My areas of expertise:
-                    </caption>
-                    
-                    <thead>
-                        <tr>
-                            <th scope="col"> Graphic Design</th>
-                            <th scope="col"> Web Design</th>
-                            <th scope="col"> Marketing</th>
-                            <th scope="col"> Operations</th>
+            <section id="about">
 
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="Row">Clothing Design</th>
-                            <th scope="row">Acessibility</th>
-                            <th scope="row">Management</th>
-                            <th scope="row">Sales</th>
-                        </tr>
-                    </tbody>
-
-                </table>
+                <section class="feature-v2 cd-position-relative cd-z-index-1 cd-margin-y-2xl">
+                    <div class="cd-container cd-max-width-adaptive-lg">
+                      <p class="feature-v2__label">About Me</p>
+                  
+                      <div class="feature-v2__grid">
+                        <div class="feature-v2__grid-item-1">
+                          <h1 class="text-capitalize">Get to Know Me!</h1>
+                        </div>
+                      
+                        <div class="feature-v2__grid-item-2">
+                          <div class="feature-v2__content">
+                            <p>My name is Ronald Atutubo. I was born and raised in Calgary, Alberta. I am a first-year student at SAIT in the IDD program. My hobbies include video games, music, fashion and dancing. I previously worked as a choreographer and dance teacher! I’m hoping that after this program, I can break into tech or the fashion industry and possibly work as a UI/UX designer or attain enough skills to become a full stack developer.</p>
+                  
+                            <p>My skills include:</p>
+                            <ul>
+                                <li> Graphic Design</li>
+                                <li> User Interface Design</li>
+                                <li> User Experience Design</li>
+                                <li> Marketing & Branding</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>           
             </section>
             <hr>
-            <section id="Projects">
+            <section id="projects">
+
                 <h2> My Work &#127970;</h2>
+                
                 <p>My past and present workplaces include:</p>
-                <ol type="1">
-                    <li>Milk Run Clothing</li>
-                    <li>Birdesc</li>
-                    <li>Boathouse</li>
-                    <li>Tim Hortons</li>
-                </ol>
+
+                <ul class="badges">
+                  <li><a href="https://www.mymilkrun.com/" class="badge badge-milkrun">Milk Run Clothing</a></li>
+                
+                  <li><a href="https://birdesc.com/" class="badge badge-birdesc">Birdesc</a></li>
+                
+                  <li><a href="https://boathousestores.com/" class="badge badge-boathouse">Boathouse</a></li>
+                
+                  <li><a href="https://www.timhortons.ca/?lang=en" class="badge badge-timhortons">Tim Hortons</a></li>
+                </ul>
             
-                <img src="./Images/Basketball Graphic-01.png" height="300" margin="" alt="This is a illustration of a man wearing a flipino jersey trying to dunk a basketball">
-                <figcaption>This is an illustration I made in class this year</figcaption>
-                <br>
-                <br>
-                <br>
-                <img src="./Images/Tubo Mango Tree.png" height="300" alt="a Illustration of a mango tree with mangos on it in a triangle">
-                <figcaption>This illustration was inspired by Aime Leon Dore</figcaption>
-            
+                <section class="adv-gallery cd-padding-y-xl">
+                    <div class="adv-gallery__grid">
+                      <div>
+                        <img class="adv-gallery__img" src="Images/barkada.png" alt="Image description">
+                      </div>
+                  
+                      <div>
+                        <img class="adv-gallery__img" src="Images/tubobasketballgraphic.png" alt="Image description">
+                      </div>
+                  
+                      <div>
+                        <img class="adv-gallery__img" src="Images/tubomangotree.png" alt="Image description" style="width: fit-content;">
+                      </div>
+                  
+                      <div class="adv-gallery__label">
+                        <div class="adv-gallery__label-inner">
+                          <div class="adv-gallery__label-line" aria-hidden="true"></div>
+                          <p class="adv-gallery__label-text">Work's I have done in class</p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
             </section>
-            <hr>
-            <section id="Contact">
-                <h2>Contact Me &#128222;</h2>
-                <h3>Let's get in touch!</h3>
-                <p>This is how you can contact me!</p>
-                <ul>
-                <li><a href="https://www.linkedin.com/in/ronald-atutubo-a52156290/">Linkedin Profile</a></li>
-                <li><a href="https://www.instagram.com/ronaldatutubo/">Instagram</a></li>
+        
+            <section id="contact">
+                <section class="socials sk4-text-center">
+                    <div class="sk4-container sk4-max-width-md">
+                      <div class="sk4-margin-bottom-lg">
+                      </div>
+
+                      <h2>Let's Connect!</h2>
+                  
+                      <ul class="socials__btns sk4-flex sk4-flex-center sk4-gap-sm sk4-flex-wrap">
+                        <li>
+                          <a href="https://www.linkedin.com/in/ronald-atutubo-a52156290/">
+                            <svg class="sk4-icon" viewBox="0 0 24 24"><title>Follow me on LinkedIn</title><g><path d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm-2.495 18.979h-2.993V9.504h2.993zm-1.496-10.244c-1.658 0-2.993-1.336-2.993-2.993s1.336-2.993 2.993-2.993S11.002 4.084 11.002 5.741s-1.335 2.993-2.992 2.993zm10.738 10.243h-3.001v-4.99c0-1.191-.022-2.726-1.657-2.726-1.658 0-1.915 1.292-1.915 2.625v5.091h-3.003V9.503h2.948v1.395h.04c.41-.777 1.43-1.596 2.91-1.596 3.108 0 3.676 2.047 3.676 4.721v5.856z"/></g></svg>
+                          </a>
+                        </li>
+                  
+                        <li>
+                          <a href="https://www.instagram.com/ronaldatutubo/">
+                            <svg class="sk4-icon" viewBox="0 0 32 32"><title>Follow me on Instagram</title><path d="M16,3.7c4,0,4.479.015,6.061.087a6.426,6.426,0,0,1,4.51,1.639,6.426,6.426,0,0,1,1.639,4.51C28.282,11.521,28.3,12,28.3,16s-.015,4.479-.087,6.061a6.426,6.426,0,0,1-1.639,4.51,6.425,6.425,0,0,1-4.51,1.639c-1.582.072-2.056.087-6.061.087s-4.479-.015-6.061-.087a6.426,6.426,0,0,1-4.51-1.639,6.425,6.425,0,0,1-1.639-4.51C3.718,20.479,3.7,20.005,3.7,16s.015-4.479.087-6.061a6.426,6.426,0,0,1,1.639-4.51A6.426,6.426,0,0,1,9.939,3.79C11.521,3.718,12,3.7,16,3.7M16,1c-4.073,0-4.584.017-6.185.09a8.974,8.974,0,0,0-6.3,2.427,8.971,8.971,0,0,0-2.427,6.3C1.017,11.416,1,11.927,1,16s.017,4.584.09,6.185a8.974,8.974,0,0,0,2.427,6.3,8.971,8.971,0,0,0,6.3,2.427c1.6.073,2.112.09,6.185.09s4.584-.017,6.185-.09a8.974,8.974,0,0,0,6.3-2.427,8.971,8.971,0,0,0,2.427-6.3c.073-1.6.09-2.112.09-6.185s-.017-4.584-.09-6.185a8.974,8.974,0,0,0-2.427-6.3,8.971,8.971,0,0,0-6.3-2.427C20.584,1.017,20.073,1,16,1Z"></path><path d="M16,8.3A7.7,7.7,0,1,0,23.7,16,7.7,7.7,0,0,0,16,8.3ZM16,21a5,5,0,1,1,5-5A5,5,0,0,1,16,21Z"></path><circle cx="24.007" cy="7.993" r="1.8"></circle></svg>
+                          </a>
+                        </li>
+                        
+                      </ul>
+                    </div>
+                  </section>
             </ul>
 
             </section>
