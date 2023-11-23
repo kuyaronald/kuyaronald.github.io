@@ -293,8 +293,8 @@ nav ul li a {
 }
 
 nav ul li:nth-child(3) a {
-  background-color: orange;
-  color: black
+  background-color: rgb(255, 106, 0);
+  color: white
 }
 
 nav ul li a:hover {
