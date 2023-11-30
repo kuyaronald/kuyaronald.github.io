@@ -148,6 +148,19 @@ main{
   transition: 0.5s ease;
 }
 
+/* Portfolio Header */
+
+.portfolioheader {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  color: #2B398F;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #2B398F;
+  margin: auto;
+  width: 75%;
+}
+
 /* About Me Section */
 
 #about {
@@ -161,6 +174,7 @@ main{
   text-align: left;
   margin-right: 20px;
   font-family: "Anton", sans-serif;
+  color: #2B398F;
 }
 
 .aboutmeheader h1 {
