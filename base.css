@@ -1,6 +1,6 @@
 body{
   background-color: gainsboro;
-  font-family:Arial, Helvetica, sans-serif
+  font-family:Arial, Helvetica, sans-serif;
 }
 article{
   background-color: whitesmoke;
@@ -254,6 +254,7 @@ main{
   }
 }
 
+
 /* Workplace Button CSS */
 
 #projects {
@@ -378,11 +379,14 @@ flex-wrap: wrap;
 .socialscontainer {
   background-color: whitesmoke;
   padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .socials {
   text-align: center;
   font-size: 2rem;
+  margin: 0 auto;
 }
 
 .socials h2 {
@@ -427,4 +431,125 @@ flex-wrap: wrap;
 .social-buttons a:hover .linkedin-button,
 .social-buttons a:hover .instagram-button {
   fill: #2B398F;
+}
+/*Java Stuff CSS*/
+.javastuff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  font-family: "Anton", sans-serif;
+  color: #2B398F;
+}
+
+ /* Alert Button CSS*/
+
+ #btn-alert {
+  background-color: rgb(255, 106, 0);
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: auto;
+  border-radius: 5px;
+  transition: 0.5s ease;
+  font-family: "Anton", sans-serif;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#btn-alert:hover {
+  background-color: darkorange;
+}
+
+/* Spam Clicker Counter CSS */
+
+#counter {
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+  font-family: "Anton", sans-serif;
+  text-align: center;
+}
+
+.counterbutton {
+  font-family: "Anton", sans-serif;
+  color: #2B398F;
+  padding: 1rem;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  background-color: #FF5722;
+  border: none;
+  border-radius: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #FF9800;
+}
+
+/* List Css*/
+
+#numbers {
+  height: 300px;
+  overflow-y: scroll;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  list-style: none;
+  margin: 2rem;
+  width: 200px;
+}
+
+#numbers li {
+  margin: 5px 0;
+  padding: 8px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+#numbers li:nth-child(odd) {
+  background-color: #e0e0e0;
+}
+
+/* Back to Top Button*/
+
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2B398F;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#backToTopBtn:hover {
+  background-color: #FF9800;
+  transform: scale(1.1);
+}
+
+/* Footer */
+
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
 }

@@ -7,6 +7,7 @@
     <link rel ="stylesheet" href="base.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <script defer src="script.js"></script>
 </head>
 
 <body>
@@ -39,6 +40,7 @@
             </ul>
         </nav>
         </div>
+
     </Header>
 
 
@@ -113,6 +115,20 @@
             </section>
           </section>
           <hr>
+<section class="javastuff">
+  <h2>Java Script Buttons</h2>
+          <button id="btn-alert">Time to Check in!</button>
+          <section class="counterbutton">
+            <h2>Spam Clicker Counter : <span id="counter">0</span></h2>
+            <button id="incrementButton">Click Time!</button>
+    </section>
+    <ol id="numbers"></ol>
+    <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+
+
+</section>
+<hr>
+
             <div id="contact">
               <div class="socialscontainer">
                 <section class="socials">
@@ -142,8 +158,8 @@
     <!-- This is just a rough draft, needs more work for sure!-->
 
     <footer>
-        &copy; Ronald Atutubo, 2023
+      &copy; Ronald Atutubo, <span id="month"></span>. <span id="year"></span>
     </footer>
-    
+
 </body>
 </html>
